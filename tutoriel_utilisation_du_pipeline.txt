@@ -1,0 +1,11 @@
+Pour utiliser le pipeline il faut plusieur chose :
+1 fichier .champs
+2 fichier -collection.champs
+une fois ces fichier dans le meme dossier vous pouvez appeler la commande depuis le dossier ou se trouvent les fichiers.
+exemple d'utilisation :
+python /chemin/du/dossier/main.py "zthermique" "rt" ["af","bf","ak","bk"] [uniform,-1,1,uniform,-1,1,uniform,-1,1,uniform,-1,1] test1
+"zthermique" le radical du fichier .champs et des fichiers -collection.champs
+"rt" le prefixe de sortie
+["af","bf","ak","bk"] la liste des noms de mes parametre
+[uniform,-1,1,uniform,-1,1,uniform,-1,1,uniform,-1,1] pour chaque parametre on donne le nom du loi de probabilité et les parametre de la loi ici loi uniforme sur l'interval [-1:1]
+test1 le nom du model
